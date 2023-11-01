@@ -1,33 +1,33 @@
-const sign_in_btn = document.querySelector("#sign-in-btn");
-const sign_up_btn = document.querySelector("#sign-up-btn");
-const container = document.querySelector(".container");
+// const sign_in_btn = document.querySelector("#sign-in-btn");
+// const sign_up_btn = document.querySelector("#sign-up-btn");
+// const container = document.querySelector(".container");
 
-sign_up_btn.addEventListener("click", () => {
-    container.classList.add("sign-up-mode");
-});
+// sign_up_btn.addEventListener("click", () => {
+//   container.classList.add("sign-up-mode");
+// });
 
-sign_in_btn.addEventListener("click", () => {
-    container.classList.remove("sign-up-mode");
-});
+// sign_in_btn.addEventListener("click", () => {
+//   container.classList.remove("sign-up-mode");
+// });
 
 
-// LocaStorage SignIn
+// // LocaStorage SignIn
 
-const loginForm = document.querySelector('#loginForm')
-loginForm.addEventListener('submit', (e) => {
-    e.preventDefault()
-    const email = document.querySelector('#email1').value
-    const password = document.querySelector('#password1').value
-    const Users = JSON.parse(localStorage.getItem('users')) || []
-    const validUser = Users.find(user => user.email === email && user.password === password)
-    if (!validUser) {
-        window.location.href = 'index.html'
-    }
-    alert(`Bienvenido ${validUser.name}`)
-    localStorage.setItem('login_success', JSON.stringify(validUser))
-    window.location.href = 'index.html'
+// const loginForm = document.querySelector('#loginForm')
+// loginForm.addEventListener('submit', (e)=>{
+//   e.preventDefault()
+//   const email = document.querySelector('#email1').value
+//   const password = document.querySelector('#password1').value
+//   const Users = JSON.parse(localStorage.getItem('users')) || []
+//   const validUser = Users.find(user => user.email === email && user.password === password)
+//   if(!validUser){
+//     window.location.href = 'index.html'
+//   }
+//   alert(`Bienvenido ${validUser.name}`)
+//   localStorage.setItem('login_success', JSON.stringify(validUser))
+//   window.location.href = 'index.html'
 
-})
+// })
 
 // LocaStorage SignUp
 
@@ -55,49 +55,48 @@ loginForm.addEventListener('submit', (e) => {
 
 
 //Base de datos - Registro
-const signupForm = document.getElementById('submit');
+const signupForm = document.getElementById('submitRegistro');
 
 signupForm.addEventListener("click", (e) => {
-    e.preventDefault()
-    const nombre = document.getElementById('firstName');
-    const apellido = document.getElementById('lastName');
-    const correo = document.getElementById('email');
-    const direccion = document.getElementById('address');
-    const telefono = document.getElementById('phone');
-    console.log(nombre, apellido, email, address, telefono);
+e.preventDefault()  
+    const nombre = document.getElementById('nameRegistro').value;
+    const apellido = document.getElementById('lastNameRegistro').value;
+    const correo = document.getElementById('emailRegistro').value;
+    const password = document.getElementById('passwordRegistro').value;
+    const telefono = document.getElementById('telefonoRegistro').value;
+console.log(nombre, apellido, correo, password, telefono);
+// Necesito asignar estas constantes a un Objeto que se va a enviar a mi servidor y posteriormente, convertir este Objeto e un formato que mi servidor pueda leer
 
-    // Necesito asignar estas constantes a un Objeto que se va a enviar a mi servidor y posteriormente, convertir este Objeto e un formato que mi servidor pueda leer
+const cliente = {
+    nombreUsuario: nombre,
+    apellido: apellido,
+    correo: correo,
+    contrasenia: password,
+    telefono: telefono
+};
+console.log(cliente);
+//fetch API(url, method, headers, (json), body, then, catch)
+// const url = "http://localhost:8080/users/clients";
 
-    const cliente = {
-        nombreUsuario: nombre.value,
-        contrasenia: apellido.value,
-        apellido: direccion.value,
-        telefono: correo.value,
-        correo: telefono.value,
-    };
-    console.log(cliente);
-    //fetch API(url, method, headers, (json), body, then, catch)
-    // const url = "http://localhost:8080/users/clients";
-
-    fetch("https://marketpetplacemvp.onrender.com/users", {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json'
-        },
-        body: JSON.stringify(cliente)
+fetch("http://localhost:8080/users", {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json'
+    },
+    body: JSON.stringify(cliente)
+})  
+    .then(response => {
+        return response.text();
     })
-        .then(response => {
-            return response.text();
-        })
-        .then(cliente => {
-            console.log("Si fine", cliente);
-            window.location.href = 'index.html'
-            return cliente;
-        })
-        .catch(error => {
-            console.log("Aqui hay un error", error);
-            window.location.href = 'index.html'
-        })
+    .then(cliente =>{
+        console.log("Si fine", cliente);
+        window.location.href = '../index.html'
+        return cliente;
+    })
+    .catch(error => {
+        console.log("Aqui hay un error", error);
+        window.location.href = '../index.html'
+    })
 });
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -107,8 +106,8 @@ document.addEventListener('DOMContentLoaded', function () {
     userForm.addEventListener('submit', function (event) {
         event.preventDefault();
 
-        const email = document.getElementById('email').value;
-        const url = `https://marketpetplacemvp.onrender.com/users/byEmail?correo=${email}`;
+        const email = document.getElementById('emaillogin').value;
+        const url = `http://localhost:8080/users/byEmail?correo=${email}`;
 
         fetch(url)
             .then(response => response.json())
@@ -116,22 +115,23 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (data) {
                     // Mostrar la información del usuario en el elemento "userInfo"
                     userInfo.innerHTML = `
-                        <h3>Información del Usuario:</h3>
-                        <p>Nombre: ${data.firstName} ${data.lastName}</p>
-                        <p>Dirección: ${data.address}</p>
-                        <p>Teléfono: ${data.phone}</p>
-                        <p>Correo Electrónico: ${data.email}</p>
+                        <h3 class="exSb18">¡Qué bueno verte, ${data.nombreUsuario}!</h3>
+                        <h3 class="sb16 mb-3">Información de cuenta</h3>
+                        <p class="txt16 mb-1"><b>Nombre:</b> ${data.nombreUsuario} ${data.apellido}</p>
+                        <p class="txt16 mb-1"><b>Teléfono:</b> ${data.telefono}</p>
+                        <p class="txt16 mb-1"><b>Correo electrónico:</b> ${data.correo}</p>
                     `;
                 } else {
                     // Mostrar un mensaje de usuario no encontrado si no se encontró el usuario
-                    userInfo.innerHTML = "Usuario no encontrado";
+                    userInfo.innerHTML = `
+                    <p class="txt21N">Usuario no encontrado.</p>
+                `;
                 }
 
-
+                
             })
             .catch(error => {
                 console.error(error);
             });
-        window.location.href = 'index.html'
     });
 });
