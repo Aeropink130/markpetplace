@@ -48,187 +48,187 @@ function pintarFila(contenedorId, datosArray) { //recibe el id del contenedor y 
 // Datos específicos para cada categoría
 const datosGatoAlimentacion = [
     {
-        imgSrc: "./assets/img/seccion_gatos/alimentogato1.jpg",
+        imgSrc: "../assets/img/seccion_gatos/alimentogato1.jpg",
         nombre: "Croquetas Premium para Gatos",
         categoria: "Alimentacion",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$380.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/alimentogato2.jpg",
+        imgSrc: "../assets/img/seccion_gatos/alimentogato2.jpg",
         nombre: "Snacks de Pescado Liofilizados Calidad Alta",
         categoria: "Alimentacion",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$950.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/alimentogato4.jpg",
+        imgSrc: "../assets/img/seccion_gatos/alimentogato4.jpg",
         nombre: "Comida Húmeda Gourmet para Gatos",
         categoria: "Alimentacion",
         vendedor: "Antonio",
-        precio: "$00.00",
+        precio: "$67.80",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/alimentogato3.jpg",
+        imgSrc: "../assets/img/seccion_gatos/alimentogato3.jpg",
         nombre: "Suplemento Nutricional Vital para Gatos",
         categoria: "Alimentacion",
         vendedor: "Alejandra",
-        precio: "$00.00",
+        precio: "$49.99",
     }
 ];
 
 const datosGatoAccesorios = [
     {
-        imgSrc: "./assets/img/seccion_gatos/accesoriogato1.jpg",
+        imgSrc: "../assets/img/seccion_gatos/accesoriogato1.jpg",
         nombre: "Rascador Grande de Sisal para Gatos",
         categoria: "Accesorios",
         vendedor: "Uriel",
-        precio: "$00.00",
+        precio: "$999.99",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/accesoriogato2.jpg",
+        imgSrc: "../assets/img/seccion_gatos/accesoriogato2.jpg",
         nombre: "Juguete Sencillo e Interactivo con Plumas",
         categoria: "Accesorios",
         vendedor: "Alexis",
-        precio: "$00.00",
+        precio: "$63.50",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/accesoriogato3.jpg",
+        imgSrc: "../assets/img/seccion_gatos/accesoriogato3.jpg",
         nombre: "Collar de Tela con Campana color naranja",
         categoria: "Accesorios",
         vendedor: "Edna",
-        precio: "$00.00",
+        precio: "$258.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/accesoriogato4.jpg",
+        imgSrc: "../assets/img/seccion_gatos/accesoriogato4.jpg",
         nombre: "Cama de Gato con Diseño especial de esfera",
         categoria: "Accesorios",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$480.95",
     }
 ];
 
 const datosGatoCuidadoEHigiene = [
     {
-        imgSrc: "./assets/img/seccion_gatos/cuidadogato1.jpg",
+        imgSrc: "../assets/img/seccion_gatos/cuidadogato1.jpg",
         nombre: "Arena Absorbente Premium",
         categoria: "Cuidado e Higiene",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$85.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/cuidadogato2.jpg",
+        imgSrc: "../assets/img/seccion_gatos/cuidadogato2.jpg",
         nombre: "Champú Suave para Gatos",
         categoria: "Cuidado e Higiene",
         vendedor: "Antonio",
-        precio: "$00.00",
+        precio: "$300.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/cuidadogato3.jpg",
+        imgSrc: "../assets/img/seccion_gatos/cuidadogato3.jpg",
         nombre: "Cepillo de Masaje Desenredante",
         categoria: "Cuidado e Higiene",
         vendedor: "Alejandra",
-        precio: "$00.00",
+        precio: "$90.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/cuidadogato4.jpg",
+        imgSrc: "../assets/img/seccion_gatos/cuidadogato4.jpg",
         nombre: "Toallitas de Limpieza",
         categoria: "Cuidado e Higiene",
         vendedor: "Uriel",
-        precio: "$00.00",
+        precio: "$46.30",
     }
 ];
 
 const datosGatoSaludYBienestar = [
     {
-        imgSrc: "./assets/img/seccion_gatos/saludgato1.jpg",
+        imgSrc: "../assets/img/seccion_gatos/saludgato1.jpg",
         nombre: "Suplemento de Omega-3",
         categoria: "Salud y Bienestar",
         vendedor: "Alexis",
-        precio: "$00.00",
+        precio: "$365.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/saludgato2.jpg",
+        imgSrc: "../assets/img/seccion_gatos/saludgato2.jpg",
         nombre: "Fuente de Agua con Filtro",
         categoria: "Salud y Bienestar",
         vendedor: "Edna",
-        precio: "$00.00",
+        precio: "$500.00",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/saludgato3.jpg",
+        imgSrc: "../assets/img/seccion_gatos/saludgato3.jpg",
         nombre: "Cama Ortopédica para Gatos",
         categoria: "Salud y Bienestar",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$567.60",
     },
     {
-        imgSrc: "./assets/img/seccion_gatos/saludgato4.jpg",
+        imgSrc: "../assets/img/seccion_gatos/saludgato4.jpg",
         nombre: "Kit de Cepillado y Masaje para Gatos",
         categoria: "Salud y Bienestar",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$680.20",
     }
 ];
 
 const datosGatoRopaYModa = [
     {
-        imgSrc: "./assets/img/seccion_gatos/ropagato1.jpg",
+        imgSrc: "../assets/img/seccion_gatos/ropagato1.jpg",
         nombre: "Pijama de Terciopelo para Gatos",
         categoria: "Ropa y Moda",
         vendedor: "Antonio",
-        precio: "$00.00",
+        precio: "$245.00",
     },
     {
-        imgSrc: "/assets/img/seccion_gatos/ropagato2.jpg",
+        imgSrc: "../assets/img/seccion_gatos/ropagato2.jpg",
         nombre: "Juego de sueters de lana 100% algodon",
         categoria: "Ropa y Moda",
         vendedor: "Alejandra",
-        precio: "$00.00",
+        precio: "$480.00",
     },
     {
-        imgSrc: "/assets/img/seccion_gatos/ropagato3.jpg",
+        imgSrc: "../assets/img/seccion_gatos/ropagato3.jpg",
         nombre: "Corbata de Gato con Estampado sencilo",
         categoria: "Ropa y Moda",
         vendedor: "Uriel",
-        precio: "$00.00",
+        precio: "$170.00",
     },
     {
-        imgSrc: "/assets/img/seccion_gatos/ropagato4.jpg",
+        imgSrc: "../assets/img/seccion_gatos/ropagato4.jpg",
         nombre: "Gorro de obeja Terciopelo para Gatos",
         categoria: "Ropa y Moda",
         vendedor: "Alexis",
-        precio: "$00.00",
+        precio: "$250.50",
     }
 ];
 
 const datosGatoEntrenamiento = [
     {
-        imgSrc: "/assets/img/seccion_gatos/entrenamientogato1.jpg",
+        imgSrc: "../assets/img/seccion_gatos/entrenamientogato1.jpg",
         nombre: "Juguete Interactivo",
         categoria: "Entrenamiento",
         vendedor: "Edna",
-        precio: "$00.00",
+        precio: "$186.30",
     },
     {
-        imgSrc: "/assets/img/seccion_gatos/entrenamientogato2.jpg",
+        imgSrc: "../assets/img/seccion_gatos/entrenamientogato2.jpg",
         nombre: "Puzzle de Entrenamiento",
         categoria: "Entrenamiento",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$230.00",
     },
     {
-        imgSrc: "/assets/img/seccion_gatos/entrenamientogato3.jpg",
+        imgSrc: "../assets/img/seccion_gatos/entrenamientogato3.jpg",
         nombre: "Rueda de Ejercicio para Gatos",
         categoria: "Entrenamiento",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$315.00",
     },
     {
-        imgSrc: "/assets/img/seccion_gatos/entrenamientogato4.jpg",
+        imgSrc: "../assets/img/seccion_gatos/entrenamientogato4.jpg",
         nombre: "Kit de Agility para Gatos",
         categoria: "Entrenamiento",
         vendedor: "Antonio",
-        precio: "$00.00",
+        precio: "$78.99",
     }
 ];
 

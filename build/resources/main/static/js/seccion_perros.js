@@ -48,28 +48,28 @@ function pintarFila(contenedorId, datosArray) { //recibe el id del contenedor y 
 // Datos específicos para cada categoría
 const datosPerroAlimentacion = [
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAlimentacion.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAlimentacion.jpg",
         nombre: "Croquetas Sportman's Choice",
         categoria: "Alimentacion",
         vendedor: "Kenia",
-        precio: "$230.99",
+        precio: "$1357.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAlimentacion2.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAlimentacion2.jpg",
         nombre: "Sobre Plaisir Adulto de Res",
         categoria: "Alimentacion",
         vendedor: "Berenice",
         precio: "$20.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAlimentacion3.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAlimentacion3.jpg",
         nombre: "Croquetas FullTrust Perro Grande",
         categoria: "Alimentacion",
         vendedor: "Antonio",
         precio: "$300.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAlimentacion4.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAlimentacion4.jpg",
         nombre: "Galletas Gourmet Bakes",
         categoria: "Alimentacion",
         vendedor: "Alejandra",
@@ -79,28 +79,28 @@ const datosPerroAlimentacion = [
 
 const datosPerroAccesorios = [
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAccesorios.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAccesorios.jpg",
         nombre: "Correa Grande para razas grandes",
         categoria: "Accesorios",
         vendedor: "Uriel",
         precio: "$160.50",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAccesorios2.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAccesorios2.jpg",
         nombre: "Camita mediana para razas pequeñas",
         categoria: "Accesorios",
         vendedor: "Alexis",
         precio: "$270.50",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAccesorios3.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAccesorios3.jpg",
         nombre: "Juguete de pelota plástico azul",
         categoria: "Accesorios",
         vendedor: "Edna",
         precio: "$270.50",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoAccesorios4.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoAccesorios4.jpg",
         nombre: "Plato de Comida Metal acero inoxidable",
         categoria: "Accesorios",
         vendedor: "Kenia",
@@ -110,28 +110,28 @@ const datosPerroAccesorios = [
 
 const datosPerroCuidadoEHigiene = [
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoCuidadoeHigiene.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoCuidadoeHigiene.jpg",
         nombre: "Shampoo Orgánico para cachorro",
         categoria: "Cuidado e Higiene",
         vendedor: "Berenice",
         precio: "$165.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoCuidadoeHigiene2.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoCuidadoeHigiene2.jpg",
         nombre: "Cepillo Negro para Perro",
         categoria: "Cuidado e Higiene",
         vendedor: "Antonio",
         precio: "$115.80",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoCuidadoeHigiene3.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoCuidadoeHigiene3.jpg",
         nombre: "Pasta Dental Blanqueadora Trixie",
         categoria: "Cuidado e Higiene",
         vendedor: "Alejandra",
         precio: "$85.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoCuidadoeHigiene4.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoCuidadoeHigiene4.jpg",
         nombre: "Pasto Sintético Pet Loo Verde",
         categoria: "Cuidado e Higiene",
         vendedor: "Uriel",
@@ -141,28 +141,28 @@ const datosPerroCuidadoEHigiene = [
 
 const datosPerroSaludYBienestar = [
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoSaludyBienestar.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoSaludyBienestar.jpg",
         nombre: "Desparasitante Simparica TRIO",
         categoria: "Salud y Bienestar",
         vendedor: "Alexis",
         precio: "$305.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoSaludyBienestar2.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoSaludyBienestar2.jpg",
         nombre: "Antibiótico Clinda Pet's NRV",
         categoria: "Salud y Bienestar",
         vendedor: "Edna",
         precio: "$166.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoSaludyBienestar3.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoSaludyBienestar3.jpg",
         nombre: "Antinflamatorio Cortipet",
         categoria: "Salud y Bienestar",
         vendedor: "Kenia",
         precio: "$238.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoSaludyBienestar4.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoSaludyBienestar4.jpg",
         nombre: "Diurético Dirulán Tabletas",
         categoria: "Salud y Bienestar",
         vendedor: "Berenice",
@@ -172,28 +172,28 @@ const datosPerroSaludYBienestar = [
 
 const datosPerroRopaYModa = [
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoRopayModa.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoRopayModa.jpg",
         nombre: "Chamarra Verde Mediana",
         categoria: "Ropa y Moda",
         vendedor: "Antonio",
         precio: "$799.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoRopayModa2.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoRopayModa2.jpg",
         nombre: "Chamarra Negra con Peluche Chica",
         categoria: "Ropa y Moda",
         vendedor: "Alejandra",
         precio: "$799.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoRopayModa3.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoRopayModa3.jpg",
         nombre: "Bandana Chica Azul Marino",
         categoria: "Ropa y Moda",
         vendedor: "Uriel",
         precio: "$200.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoRopayModa4.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoRopayModa4.jpg",
         nombre: "Set Impermeable y Botas",
         categoria: "Ropa y Moda",
         vendedor: "Alexis",
@@ -203,28 +203,28 @@ const datosPerroRopaYModa = [
 
 const datosPerroEntrenamiento = [
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoEntrenamiento.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoEntrenamiento.jpg",
         nombre: "Treats Hill's Suaves de Pollo",
         categoria: "Entrenamiento",
         vendedor: "Edna",
         precio: "$105.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoEntrenamiento2.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoEntrenamiento2.jpg",
         nombre: "Guía de Adiestramiento desde cero",
         categoria: "Entrenamiento",
         vendedor: "Kenia",
         precio: "$95.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoEntrenamiento3.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoEntrenamiento3.jpg",
         nombre: "Clicker Naranja con Silbato",
         categoria: "Entrenamiento",
         vendedor: "Berenice",
         precio: "$93.00",
     },
     {
-        imgSrc: "./assets/img/seccion_perros/ProductoEntrenamiento4.jpg",
+        imgSrc: "../assets/img/seccion_perros/ProductoEntrenamiento4.jpg",
         nombre: "Repelente Natural !Ahí No! 750 ml",
         categoria: "Entrenamiento",
         vendedor: "Antonio",

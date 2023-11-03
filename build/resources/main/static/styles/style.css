@@ -79,6 +79,7 @@ a {
     background: #ffffff;
     border: 1px solid #fbb72c;
     border-radius: 12px;
+    height: 560px;
 }
 
 .badge {
@@ -198,4 +199,9 @@ a {
 #icono-card:hover {
     background-color: #fbb72c;
     color: #fff;
+}
+
+#img-fluid {
+
+    aspect-ratio: 1/1;
 }

@@ -48,125 +48,125 @@ function pintarFila(contenedorId, datosArray) { //recibe el id del contenedor y 
 // Datos específicos para cada categoría
 const datosPezAlimentacion = [
     {
-        imgSrc: "/assets/img/seccion_peces/alimentopez1.png",
+        imgSrc: "../assets/img/seccion_peces/alimentopez1.png",
         nombre: "Algas para pez de artemia liofilizados",
         categoria: "Alimentacion",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$45.00",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/alimentopez2.webp",
+        imgSrc: "../assets/img/seccion_peces/alimentopez2.webp",
         nombre: "Comida en Pellets para Peces de Fondo",
         categoria: "Alimentacion",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$65.32",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/alimentopez3.jpg",
+        imgSrc: "../assets/img/seccion_peces/alimentopez3.jpg",
         nombre: "Alimento en Escamas para Peces Tropicales",
         categoria: "Alimentacion",
         vendedor: "Antonio",
-        precio: "$00.00",
+        precio: "$84.50",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/alimentopez4.jpg",
+        imgSrc: "../assets/img/seccion_peces/alimentopez4.jpg",
         nombre: "Comida para Peces de Agua Fría premium",
         categoria: "Alimentacion",
         vendedor: "Alejandra",
-        precio: "$00.00",
+        precio: "$35.45",
     }
 ];
 
 const datosPezAccesorios = [
     {
-        imgSrc: "/assets/img/seccion_peces/accesoriopez1.jpg",
+        imgSrc: "../assets/img/seccion_peces/accesoriopez1.jpg",
         nombre: "Acuario con Sistema de Filtración",
         categoria: "Accesorios",
         vendedor: "Uriel",
-        precio: "$00.00",
+        precio: "$650.20",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/accesoriopez2.jpg",
+        imgSrc: "../assets/img/seccion_peces/accesoriopez2.jpg",
         nombre: "Plantas Artificiales para Acuario",
         categoria: "Accesorios",
         vendedor: "Alexis",
-        precio: "$00.00",
+        precio: "$135.00",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/accesoriopez3.jpg",
+        imgSrc: "../assets/img/seccion_peces/accesoriopez3.jpg",
         nombre: "Termómetro digital flotante especial",
         categoria: "Accesorios",
         vendedor: "Edna",
-        precio: "$00.00",
+        precio: "$380.00",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/accesoriopez4.jpg",
+        imgSrc: "../assets/img/seccion_peces/accesoriopez4.jpg",
         nombre: "Red de resguardo para captura de Peces",
         categoria: "Accesorios",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$18.90",
     }
 ];
 
 const datosPezCuidadoEHigiene = [
     {
-        imgSrc: "/assets/img/seccion_peces/cuidadopez1.jpg",
+        imgSrc: "../assets/img/seccion_peces/cuidadopez1.jpg",
         nombre: "Acondicionador VIP para Acuario",
         categoria: "Cuidado e Higiene",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$45.00",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/cuidadopez2.jpg",
+        imgSrc: "../assets/img/seccion_peces/cuidadopez2.jpg",
         nombre: "Limpiador de Grava para Acuario",
         categoria: "Cuidado e Higiene",
         vendedor: "Antonio",
-        precio: "$00.00",
+        precio: "$1050.30",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/cuidadopez3.jpg",
+        imgSrc: "../assets/img/seccion_peces/cuidadopez3.jpg",
         nombre: "Kit de Pruebas de Agua",
         categoria: "Cuidado e Higiene",
         vendedor: "Alejandra",
-        precio: "$00.00",
+        precio: "$199.99",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/cuidadopez4.jpg",
+        imgSrc: "../assets/img/seccion_peces/cuidadopez4.jpg",
         nombre: "Medicación para Peces Enfermos",
         categoria: "Cuidado e Higiene",
         vendedor: "Uriel",
-        precio: "$00.00",
+        precio: "$150.00",
     }
 ];
 
 const datosPezSaludYBienestar = [
     {
-        imgSrc: "/assets/img/seccion_peces/saludpez1.jpg",
+        imgSrc: "../assets/img/seccion_peces/saludpez1.jpg",
         nombre: "Tratamiento para Enfermedades de Peces",
         categoria: "Salud y Bienestar",
         vendedor: "Alexis",
-        precio: "$00.00",
+        precio: "$390.00",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/saludpez2.jpg",
+        imgSrc: "../assets/img/seccion_peces/saludpez2.jpg",
         nombre: "Aireador de Acuario mediano Silencioso",
         categoria: "Salud y Bienestar",
         vendedor: "Edna",
-        precio: "$00.00",
+        precio: "$475.60",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/saludpez3.png",
+        imgSrc: "../assets/img/seccion_peces/saludpez3.png",
         nombre: "Suplemento Multivitamínico para Peces",
         categoria: "Salud y Bienestar",
         vendedor: "Kenia",
-        precio: "$00.00",
+        precio: "$45.50",
     },
     {
-        imgSrc: "/assets/img/seccion_peces/saludpez4.jpg",
+        imgSrc: "../assets/img/seccion_peces/saludpez4.jpg",
         nombre: "Termostato de Precisión para Acuario",
         categoria: "Salud y Bienestar",
         vendedor: "Berenice",
-        precio: "$00.00",
+        precio: "$287.51",
     }
 ];
 

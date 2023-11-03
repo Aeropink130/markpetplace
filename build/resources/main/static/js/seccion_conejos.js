@@ -48,28 +48,28 @@ function pintarFila(contenedorId, datosArray) { //recibe el id del contenedor y 
 // Datos específicos para cada categoría
 const datosConejoAlimentacion = [
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAlimentación.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAlimentación.jpg",
         nombre: "Alimento con Cereales, Manzanas y Verduras",
         categoria: "Alimentacion",
         vendedor: "Kenia",
         precio: "$200.00",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAlimentación2.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAlimentación2.jpg",
         nombre: "Crispy Muesli Conejo - 20 kg",
         categoria: "Alimentacion",
         vendedor: "Berenice",
         precio: "$300.00",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAlimentación3.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAlimentación3.jpg",
         nombre: "Alimento Nature Conejo Rebalance",
         categoria: "Alimentacion",
         vendedor: "Antonio",
         precio: "$95.00",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAlimentación4.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAlimentación4.jpg",
         nombre: "Deuka nin Basis Plus Comida para Conejos",
         categoria: "Alimentacion",
         vendedor: "Alejandra",
@@ -79,28 +79,28 @@ const datosConejoAlimentacion = [
 
 const datosConejoAccesorios = [
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAccesorio.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAccesorio.jpg",
         nombre: "Arnés para Conejo",
         categoria: "Accesorios",
         vendedor: "Uriel",
         precio: "$165.00",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAccesorio2.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAccesorio2.jpg",
         nombre: "Jaula para Conejo",
         categoria: "Accesorios",
         vendedor: "Alexis",
         precio: "$201.50",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAccesorio3.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAccesorio3.jpg",
         nombre: "Bebedero para Conejo",
         categoria: "Accesorios",
         vendedor: "Edna",
         precio: "$138.29",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoAccesorio4.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoAccesorio4.jpg",
         nombre: "Carrier para Conejo",
         categoria: "Accesorios",
         vendedor: "Kenia",
@@ -110,28 +110,28 @@ const datosConejoAccesorios = [
 
 const datosConejoCuidadoEHigiene = [
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoCuidadoeHigiene.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoCuidadoeHigiene.jpg",
         nombre: "Arenero para Conejo fácil limpiado",
         categoria: "Cuidado e Higiene",
         vendedor: "Berenice",
         precio: "$267.90",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoCuidadoeHigiene2.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoCuidadoeHigiene2.jpg",
         nombre: "Producto contra olores",
         categoria: "Cuidado e Higiene",
         vendedor: "Antonio",
         precio: "$169.00",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoCuidadoeHigiene3.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoCuidadoeHigiene3.jpg",
         nombre: "Cepillo auto limpiado para conejo",
         categoria: "Cuidado e Higiene",
         vendedor: "Alejandra",
         precio: "$88.70",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoCuidadoeHigiene4.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoCuidadoeHigiene4.jpg",
         nombre: "Men For San Shampoo para conejo",
         categoria: "Cuidado e Higiene",
         vendedor: "Uriel",
@@ -141,28 +141,28 @@ const datosConejoCuidadoEHigiene = [
 
 const datosConejoSaludYBienestar = [
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoSalud.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoSalud.jpg",
         nombre: "Multivitamínico beaphar",
         categoria: "Salud y Bienestar",
         vendedor: "Alexis",
         precio: "$204.10",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoSalud2.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoSalud2.jpg",
         nombre: "Desparasitante Fenben Lab",
         categoria: "Salud y Bienestar",
         vendedor: "Edna",
         precio: "$308.40",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoSalud3.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoSalud3.jpg",
         nombre: "Desparasitante beaphar",
         categoria: "Salud y Bienestar",
         vendedor: "Kenia",
         precio: "$250.60",
     },
     {
-        imgSrc: "./assets/img/seccion_conejos/ProductoSalud4.jpg",
+        imgSrc: "../assets/img/seccion_conejos/ProductoSalud4.jpg",
         nombre: "Gotitas para los ojos lacrifresh",
         categoria: "Salud y Bienestar",
         vendedor: "Berenice",
